@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.7', '>= 2.7.0'
 # gem 'capistrano-rails', group: :development
 
 #Twitter Gem
-gem 'twitter'
+gem 'twitter', '>= 6.1.0'
 
 gem 'pg'
 
@@ -45,7 +45,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.15', '>= 2.15.1'
+  gem 'capybara', '~> 2.18', '>= 2.18.0'
   gem 'selenium-webdriver', '>= 3.5.1'
 end
 
